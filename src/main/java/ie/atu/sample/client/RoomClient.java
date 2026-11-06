@@ -15,5 +15,5 @@ import java.util.Optional;
 public interface RoomClient {
 
     @GetMapping("/api/rooms/{id}")
-    RoomResponse getRoomById(@PathVariable Long roomID);
+    RoomResponse getRoomById(@PathVariable Long id);
 }

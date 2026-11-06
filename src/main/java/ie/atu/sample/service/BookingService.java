@@ -46,6 +46,5 @@ public class BookingService {
         return bookingResponse;
     }
 
-    RoomResponse testClient(String roomID){}
 
 }
