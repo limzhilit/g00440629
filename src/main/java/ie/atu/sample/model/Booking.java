@@ -18,7 +18,7 @@ public class Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @NotBlank
     private String organiserName;
@@ -26,7 +26,7 @@ public class Booking {
     @Positive
     private int attandeeCount;
 
-    private int roomID;
+    private Long roomID;
 
     private Status status = Status.ACTIVE;
 
