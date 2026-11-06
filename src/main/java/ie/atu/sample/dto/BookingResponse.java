@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BookingResponse {
-    private int bookingID;
+    private long bookingID;
 
     @NotBlank
     @Size(min = 2)
@@ -22,7 +22,7 @@ public class BookingResponse {
     @Positive
     private int attendeeCount;
 
-    private int roomID;
+    private long roomID;
 
     private Status status = Status.ACTIVE;
 }
